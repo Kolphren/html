@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.carre{
+    width: 80vh;
+    height: 80vh;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    display: flex;
+}
+.gauche{
+    width: 50%;
+    height: 100%;
+}
+#carre1{
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+ #carre2{
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+}
+#carre3{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#carre4{
+    width: 100%;
+    height: 100%;
+    background-color: silver ;
+}
+#carre5{
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+}
+#carre6{
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+}
+#carre7{
+    width: 100%;
+    height: 100%;
+    background-color: darkgoldenrod;
+}
+#bas{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.droite{
+    width: 50%;
+    height: 100%;
+    background-color: darkgray;
+}
+#carre8{
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: darkmagenta;
+    display: flex;
+}
+#carre9{
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+}
+#carre10{
+    width: 50%;
+    height: 100%;
+    background-color: orchid;
+}
+#carre11{
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: mediumseagreen;
+}
+#carre12{
+    width: 100%;
+    height: calc(100% / 3);
+    background-color: darkorange;
+}
+input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-style: none;
+    text-align: center;
+}
+input:focus {
+    outline:  none;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}

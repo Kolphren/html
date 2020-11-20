@@ -1,0 +1,85 @@
+.carre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vh;
+    height: 80vh;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+
+    ;
+}
+#c1{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: transparent;
+    flex-wrap: wrap;
+    }
+#c2{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    flex-wrap:wrap;
+}
+#c3{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    }
+#c4{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+#c5{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+}
+#c6{    
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: darkred;
+    flex-wrap: wrap;
+}
+#c7{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: lightslategray;
+}
+#c8{
+    display: flex;
+    width: 50%;
+    height: calc(100% / 1.5);
+    background-color: saddlebrown;
+}   
+#c9{
+    display: flex;
+    width: 50%;
+    height: calc(100% / 1.5);
+    background-color: yellow;
+}
+#c10{
+    display: flex;
+    width: 100%;
+    height: calc(100% / 1.5);
+    background-color: turquoise;
+    align-self: flex-start;
+}
+#c11{
+    display: flex;
+    width: 50%;
+    height: calc(100%/3);
+    background-color: tomato;
+    align-self: flex-end;
+}
